@@ -1,0 +1,4 @@
+TITLE = "Outflow Span-wise Thermodynamic Values. iExtIter = 7800 "
+VARIABLES =
+          "Spanwise value [m]"    "iSpan [-]"       "Spanwise fraction [-]"               "Pressure [Pa]"         "Total Pressure [Pa]"             "Temperature [K]"       "Total Temperature [K]"                "Enthalpy [J]"          "Total Enthalpy [J]"             "Density [kg/m3]"               "Entropy [J/K]"           "TurbIntensity [-]"       "Turb2LamViscRatio [-]"                "NuFactor [-]"
+            0.000000000000e+00              0                          -nan            5.326726040869e+05            1.387425296622e+06            0.000000000000e+00            1.622454475449e+03            1.719507746327e+06            2.136067191773e+06            1.367058592728e+00            7.212249626944e+03            1.147661537645e-01            4.705406939108e+03            0.000000000000e+00
