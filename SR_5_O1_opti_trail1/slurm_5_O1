@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -n 12
+#SBATCH -t 12:00:00
+#SBATCH --mem-per-cpu=4000
+#export SU2_MPI_COMMAND="mpirun -n %i %s"
+PYTHONPATH=$PYTHONPATH:/home12233/puja/python-packages/lib/python2.7/site-packages/ python /home12233/puja/SU2-turbomachinery2-installation/bin/shape_optimization.py --partitions 12 -g DISCRETE_ADJOINT -o SLSQP -f stage_1.cfg > log_opti.txt
+##SU2_RUN=/home12233/puja/SU2-turbomachinery2-installation/bin/ mpirun -np 12 SU2_CFD_AD stage_1.cfg > log_AD.txt                                                                                                
+
+
+
